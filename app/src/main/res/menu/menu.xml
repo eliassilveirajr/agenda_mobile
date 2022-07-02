@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_notas"
+        android:title="@string/nota"/>
+    <item
+        android:id="@+id/menu_taref"
+        android:title="@string/tarefa"/>
+    <item
+        android:id="@+id/menu_evento"
+        android:title="@string/evento"/>
+</menu>
