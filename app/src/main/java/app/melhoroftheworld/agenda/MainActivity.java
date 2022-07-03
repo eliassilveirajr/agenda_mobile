@@ -3,8 +3,8 @@ package app.melhoroftheworld.agenda;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
 import app.melhoroftheworld.agenda.nota.MainFragment;
+
 
 public class MainActivity extends AppCompatActivity {
 

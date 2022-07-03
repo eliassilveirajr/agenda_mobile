@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import app.melhoroftheworld.agenda.nota.MainFragment;
+
 
 public class MenuFragment extends Fragment {
 
@@ -39,13 +41,13 @@ public class MenuFragment extends Fragment {
     public boolean onOptionsItemSelected (MenuItem item){
         switch(item.getItemId()){
             case R.id.menu_nota:
-                Toast.makeText(getActivity(), "Menu Nota", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new app.melhoroftheworld.agenda.nota.MainFragment()).commit();
                 break;
             case R.id.menu_tarefa:
                 Toast.makeText(getActivity(), "Menu Tarefa", Toast.LENGTH_LONG).show();
                 break;
             case R.id.menu_evento:
-                Toast.makeText(getActivity(), "Menu Evento", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new app.melhoroftheworld.agenda.evento.MainFragment()).commit();
                 break;
         }
         return super.onOptionsItemSelected(item);

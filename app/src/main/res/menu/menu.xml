@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/menu_notas"
+        android:id="@+id/menu_nota"
         android:title="@string/nota"/>
     <item
-        android:id="@+id/menu_taref"
+        android:id="@+id/menu_tarefa"
         android:title="@string/tarefa"/>
     <item
         android:id="@+id/menu_evento"

@@ -1,4 +1,4 @@
-package app.melhoroftheworld.agenda.nota;
+package app.melhoroftheworld.agenda.evento;
 
 import android.os.Bundle;
 
@@ -24,23 +24,23 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.nota_fragment_main, container, false);
+        View v = inflater.inflate(R.layout.evento_fragment_main, container, false);
 
 
-        Button btnAdicionar = v.findViewById(R.id.button_adicionar_nota);
+        Button btnAdicionar = v.findViewById(R.id.button_adicionar_evento);
         btnAdicionar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_nota, new AdicionarFragment()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_evento, new AdicionarFragment()).commit();
             }
         });
 
 
-        Button btnListar = v.findViewById(R.id.button_listar_nota);
+        Button btnListar = v.findViewById(R.id.button_listar_evento);
         btnListar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_nota, new ListarFragment()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_evento, new ListarFragment()).commit();
             }
         });
 

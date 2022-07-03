@@ -1,10 +1,28 @@
 <resources>
     <string name="app_name">Agenda</string>
+
     <string name="nota">Nota</string>
-    <string name="tarefa">Tarefa</string>
-    <string name="evento">Evento</string>
     <string name="listar_notas">Listar Notas</string>
     <string name="gerenciar_notas">Gerenciar Notas</string>
+
     <string name="listar">Listar</string>
     <string name="adicionar">Adicionar</string>
+    <string name="editar">Editar</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+
+    <string name="nome">Nome</string>
+    <string name="conteudo">Conteúdo</string>
+
+    <string name="tarefa">Tarefa</string>
+
+
+    <string name="evento">Evento</string>
+    <string name="listar_eventos">Listar Eventos</string>
+    <string name="gerenciar_eventos">Gerenciar Eventos</string>
+
+    <string name="descricao">Descrição</string>
+    <string name="dataHora">DataHora</string>
+
+
 </resources>
